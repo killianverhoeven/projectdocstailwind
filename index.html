@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind 10</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/flexboxes.css">
+  <link rel="stylesheet" href="assets/nav.css">
+  <link rel="stylesheet" href="assets/typography.css">
+  
+  <link href="dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-left">
+            <button class="hamburger" aria-label="Open menu" aria-expanded="false">☰</button>
+            <div class="brand">Lost in Tra(i)nsition</div>
+        </div>
+        <nav class="header-nav">
+            <ul>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero image header: replace or add `assets/images/hero.jpg` later -->
+        <section class="hero" aria-labelledby="hero-title">
+        <!-- Only show the hero image (Header.png) — no gradient or overlay text -->
+        <img class="hero-img" src="assets/images/Header.png" alt="Header image - reizigersinformatie en borden" loading="lazy">
+    </section>
+
+    <div class="main-layout">
+    <div class="container">
+        <div class="title">
+        <page>
+            <h1>Hoofdpagina</h1>
+            <h2>Opdracht rond de treinborden.</h2>
+            <p>
+                
+            </p>
+            <!-- Flex container with 2 columns -->
+            <div class="two-columns">
+                <div class="column">
+                    <p>
+                        De bedoeling van deze opdracht is om het treinsysteem met de borden te verduidelijken en beter te maken. Zodat het makkelijk is voor iedereen om dit te begrijpen. Het is ook de bedoeling dat mensen die een andere taal spreken dan Nederlands dit ook begrijpen, dus dat er meerdere talen worden gebruikt op de borden.
+                </div>
+                <div class="column">
+                    <p>
+                        We hadden als opdracht gekregen om vier borden te maken. Een vertrekbord-scherm, een perron-informatiescherm, een passagiersinformatie- /wegwijsscherm en een Mobiel scherm via QR-code.
+                </div>
+            </div>
+        </page>
+        </div>
+        </div>
+        <script src="assets/theme-toggle.js" defer></script>
+        <script src="assets/sidebar.js" defer></script>
+        <script src="assets/scroll-animate.js" defer></script>
+        <script src="assets/lightbox.js" defer></script>
+</body>
+</html>
