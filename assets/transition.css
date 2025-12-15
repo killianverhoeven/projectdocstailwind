@@ -1,0 +1,82 @@
+/* Page transition animations */
+:root{
+  --page-transition-duration: 600ms;
+  --page-transition-ease: cubic-bezier(.2,.9,.25,1);
+}
+
+/* Enter animation when the page loads */
+/* Generic enter/exit (fallback) */
+html.is-entering, body.is-entering {
+  animation: pageEnter var(--page-transition-duration) var(--page-transition-ease) both;
+}
+
+html.is-exiting, body.is-exiting {
+  animation: pageExit var(--page-transition-duration) var(--page-transition-ease) both;
+}
+
+@keyframes pageEnter {
+  from { opacity: 0; transform: translateY(8px) scale(0.998); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes pageExit {
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to   { opacity: 0; transform: translateY(-8px) scale(0.998); }
+}
+
+/* Enter from left/right */
+html.is-entering.enter-from-left, body.is-entering.enter-from-left {
+  animation: enterFromLeft var(--page-transition-duration) var(--page-transition-ease) both;
+}
+html.is-entering.enter-from-right, body.is-entering.enter-from-right {
+  animation: enterFromRight var(--page-transition-duration) var(--page-transition-ease) both;
+}
+
+@keyframes enterFromLeft {
+  from { opacity: 0; transform: translateX(-18px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes enterFromRight {
+  from { opacity: 0; transform: translateX(18px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* Exit to left/right */
+html.is-exiting.exit-to-left, body.is-exiting.exit-to-left {
+  animation: exitToLeft var(--page-transition-duration) var(--page-transition-ease) both;
+}
+html.is-exiting.exit-to-right, body.is-exiting.exit-to-right {
+  animation: exitToRight var(--page-transition-duration) var(--page-transition-ease) both;
+}
+
+@keyframes exitToLeft {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(-18px); }
+}
+
+@keyframes exitToRight {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(18px); }
+}
+
+/* Content-specific animations (target page text/title) */
+.content-enter-from-left { animation: enterFromLeft var(--page-transition-duration) var(--page-transition-ease) both; }
+.content-enter-from-right { animation: enterFromRight var(--page-transition-duration) var(--page-transition-ease) both; }
+.content-exit-to-left { animation: exitToLeft var(--page-transition-duration) var(--page-transition-ease) both; }
+.content-exit-to-right { animation: exitToRight var(--page-transition-duration) var(--page-transition-ease) both; }
+
+/* Respect prefers-reduced-motion (include content classes) */
+@media (prefers-reduced-motion: reduce) {
+  html.is-entering, html.is-exiting, body.is-entering, body.is-exiting,
+  .content-enter-from-left, .content-enter-from-right, .content-exit-to-left, .content-exit-to-right {
+    animation: none !important;
+  }
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  html.is-entering, html.is-exiting, body.is-entering, body.is-exiting {
+    animation: none !important;
+  }
+}

@@ -1,0 +1,83 @@
+/* Gallery: equal-size grid tiles and lightbox/modal */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 1rem;
+}
+.gallery figure {
+  margin: 0;
+  background: rgba(var(--white-rgb),0.03);
+  border-radius: 8px;
+  overflow: hidden;
+  display: block;
+  aspect-ratio: 4/3; /* ensures equal-sized tiles */
+  position: relative;
+  cursor: zoom-in;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* crop to fill tile */
+  display: block;
+}
+.gallery figcaption {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  color: rgba(var(--white-rgb),0.95);
+  font-size: 0.9rem;
+  text-shadow: 0 1px 2px rgba(var(--panel-shadow-rgb),0.6);
+}
+
+/* Lightbox/modal */
+.glightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(var(--black-rgb),0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 24px;
+}
+.glightbox-overlay.visible { display: flex; }
+.glightbox-content {
+  max-width: 95vw;
+  max-height: 92vh;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(var(--panel-shadow-rgb),0.6);
+  overflow: hidden;
+}
+.glightbox-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 92vh;
+}
+.glightbox-close {
+  position: fixed;
+  top: 18px;
+  right: 20px;
+  background: rgba(var(--white-rgb),0.06);
+  border: 1px solid rgba(var(--white-rgb),0.08);
+  color: var(--body-text);
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 2010;
+  display: none; /* hidden by default; shown only when lightbox is open */
+}
+.glightbox-close.visible {
+  display: block;
+}
+.glightbox-caption {
+  margin-top: 8px;
+  color: var(--body-text);
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .gallery { gap: 12px; }
+  .gallery figure { aspect-ratio: 3/2; }
+}

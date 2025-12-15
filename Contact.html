@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/flexboxes.css">
+    <link rel="stylesheet" href="assets/nav.css">
+    <link rel="stylesheet" href="assets/typography.css">
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-left">
+            <button class="hamburger" aria-label="Open menu" aria-expanded="false">☰</button>
+            <div class="brand">Lost in Tra(i)nsition</div>
+        </div>
+        <nav class="header-nav">
+            <ul>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-layout">
+    <div class="container">
+        <div class="title">
+        <page>
+            <h1>Contact</h1>
+            <h2>Neem contact met ons op</h2>
+            <p>
+                Heb je vragen over dit project of wil je feedback geven? Vul het contactformulier hieronder in.
+            </p>
+
+            <!-- Contact Form -->
+            <form class="contact-form" action="https://formspree.io/f/meoeoqpb" method="POST">
+                <div class="form-group">
+                    <label for="naam">Naam *</label>
+                    <input type="text" id="naam" name="naam" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="week">Week (optioneel)</label>
+                    <select id="week" name="week">
+                        <option value="">-- Selecteer een week --</option>
+                        <option value="week1">Week 1</option>
+                        <option value="week2">Week 2</option>
+                        <option value="week3">Week 3</option>
+                        <option value="week4">Week 4</option>
+                        <option value="week5">Week 5</option>
+                        <option value="week6">Week 6</option>
+                        <option value="week7">Week 7</option>
+                        <option value="week8">Week 8</option>
+                        <option value="week9">Week 9</option>
+                        <option value="week10">Week 10</option>
+                        <option value="week11">Week 11</option>
+                        <option value="week12">Week 12</option>
+                        <option value="week13">Week 13</option>
+                        <option value="week14">Week 14</option>
+                        <option value="week15">Week 15</option>
+                        <option value="week16">Week 16</option>
+                        <option value="week17">Week 17</option>
+                        <option value="week18">Week 18</option>
+                        <option value="week19">Week 19</option>
+                        <option value="week20">Week 20</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="bericht">Bericht *</label>
+                    <textarea id="bericht" name="bericht" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary">Verzenden</button>
+            </form>
+
+        </page>
+        </div>
+        </div>
+        <script src="assets/sidebar.js" defer></script>
+        <script src="assets/scroll-animate.js" defer></script>
+        <script src="assets/lightbox.js" defer></script>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="https://instagram.com/killianvh_" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="assets/icons/icon_Instagram.svg" alt="Instagram"></a></li>
+                <li><a href="https://github.com/killianverhoeven" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="assets/icons/icon_Github.svg" alt="GitHub"></a></li>
+            </ul>
+            <div class="footer-text">
+                <p>&copy; 2025 Lost in Tra(i)nsition.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

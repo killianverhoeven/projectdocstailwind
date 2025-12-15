@@ -1,0 +1,940 @@
+{
+  "files": {
+    "page18.html": {
+      "auto.page18.html.1.Week_18": "Week 18",
+      "auto.page18.html.2.text": "☰",
+      "auto.page18.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page18.html.4.Week_18": "Week 18",
+      "auto.page18.html.5.Placeholder_content": "Placeholder content",
+      "auto.page18.html.6.Placeholder_content_for_week": "Placeholder content for week 18."
+    },
+    "page1.html": {
+      "auto.page1.html.1.Week_1": "Week 1",
+      "auto.page1.html.2.text": "☰",
+      "auto.page1.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page1.html.4.Week_1": "Week 1",
+      "auto.page1.html.5.Uitleg___Schetsen": "Uitleg + Schetsen",
+      "auto.page1.html.6.In_de_eerste_les_hebben_we_e": "In de eerste les hebben we een introductie gekregen over de opdracht voor dit project. We hebben besproken dat we een reeks digitale informatieborden gaan ontwerpen voor een treinstation, gericht op het verbeteren van de reizigerservaring. De borden zullen verschillende soorten informatie weergeven, zoals vertrektijden, perroninformatie en wagonindelingen. We hebben dan ook opdracht gekregen om schetsen temaken van hoe deze informatieborden eruit zouden kunnen zien.",
+      "auto.page1.html.7.VERTREKBORD": "VERTREKBORD",
+      "auto.page1.html.8.Dit_bord_toont_de_vertrektij": "Dit bord toont de vertrektijden van de komende treinen, inclusief bestemming, spoor en eventuele vertragingen. Het helpt reizigers snel de benodigde informatie te vinden voor hun reis.",
+      "auto.page1.html.9.PERRON_SCHERM": "PERRON SCHERM",
+      "auto.page1.html.10.Dit_bord_geeft_per_spoor_de": "Dit bord geeft per spoor de eerstvolgende trein weer met vertrek- en eindtijd, bestemming, route en de bijhorende treinillustratie. Het helpt reizigers bevestigen dat ze aan het juiste spoor staan en toont duidelijk de rit die zo meteen vertrekt.",
+      "auto.page1.html.11.WAGON_INDELING_SCHERM": "WAGON INDELING SCHERM",
+      "auto.page1.html.12.Dit_bord_toont_de_opstelling": "Dit bord toont de opstelling van de trein die aan het perron komt, inclusief de volgorde van de rijtuigen en de locaties van functies zoals fietsplaatsen of rolstoelruimtes. Reizigers zien meteen waar ze moeten instappen.",
+      "auto.page1.html.13.DIGITALE_SCHETSEN": "DIGITALE SCHETSEN",
+      "auto.page1.html.14.Hiernaast_zijn_enkele_digita": "Hiernaast zijn enkele digitale schetsen te zien die ik heb gemaakt op basis van mijn initiale ideeën voor de informatieborden. Deze schetsen geven een visueel overzicht van hoe de borden eruit zouden kunnen zien en welke informatie ze zouden weergeven."
+    },
+    "page14.html": {
+      "auto.page14.html.1.Week_14": "Week 14",
+      "auto.page14.html.2.text": "☰",
+      "auto.page14.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page14.html.4.Week_14": "Week 14",
+      "auto.page14.html.5.Placeholder_content": "Placeholder content",
+      "auto.page14.html.6.Placeholder_content_for_week": "Placeholder content for week 14."
+    },
+    "index.html": {
+      "auto.index.html.1.Hoofdpagina": "Hoofdpagina",
+      "auto.index.html.2.text": "☰",
+      "auto.index.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.index.html.4.Hoofdpagina": "Hoofdpagina",
+      "auto.index.html.5.Opdracht_rond_de_treinborden": "Opdracht rond de treinborden.",
+      "auto.index.html.6.De_bedoeling_van_deze_opdrac": "De bedoeling van deze opdracht is om het treinsysteem met de borden te verduidelijken en beter te maken. Zodat het makkelijk is voor iedereen om dit te begrijpen. Het is ook de bedoeling dat mensen die een andere taal spreken dan Nederlands dit ook begrijpen, dus dat er meerdere talen worden gebruikt op de borden.",
+      "auto.index.html.7.We_hadden_als_opdracht_gekre": "We hadden als opdracht gekregen om vier borden te maken. Een vertrekbord-scherm, een perron-informatiescherm, een passagiersinformatie- /wegwijsscherm en een Mobiel scherm via QR-code."
+    },
+    "page15.html": {
+      "auto.page15.html.1.Week_15": "Week 15",
+      "auto.page15.html.2.text": "☰",
+      "auto.page15.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page15.html.4.Week_15": "Week 15",
+      "auto.page15.html.5.Placeholder_content": "Placeholder content",
+      "auto.page15.html.6.Placeholder_content_for_week": "Placeholder content for week 15."
+    },
+    "page19.html": {
+      "auto.page19.html.1.Week_19": "Week 19",
+      "auto.page19.html.2.text": "☰",
+      "auto.page19.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page19.html.4.Week_19": "Week 19",
+      "auto.page19.html.5.Placeholder_content": "Placeholder content",
+      "auto.page19.html.6.Placeholder_content_for_week": "Placeholder content for week 19."
+    },
+    "Contact.html": {
+      "auto.Contact.html.1.Contact": "Contact",
+      "auto.Contact.html.2.text": "☰",
+      "auto.Contact.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition"
+    },
+    "page12.html": {
+      "auto.page12.html.1.Week_12": "Week 12",
+      "auto.page12.html.2.text": "☰",
+      "auto.page12.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page12.html.4.Week_12": "Week 12",
+      "auto.page12.html.5.Placeholder_content": "Placeholder content",
+      "auto.page12.html.6.Placeholder_content_for_week": "Placeholder content for week 12."
+    },
+    "page7.html": {
+      "auto.page7.html.1.Week_7": "Week 7",
+      "auto.page7.html.2.text": "☰",
+      "auto.page7.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page7.html.4.Week_7": "Week 7",
+      "auto.page7.html.5.HTML_naar_Windtail": "HTML naar Windtail",
+      "auto.page7.html.6.In_de_zevende_les_hebben_we": "In de zevende les hebben we geleerd hoe we onze HTML-pagina's kunnen omzetten naar Windtail, een CSS-framework dat ons helpt bij het snel ontwerpen van responsieve en aantrekkelijke webpagina's. We hebben de basisprincipes van Windtail besproken en hoe we het kunnen integreren in onze bestaande projecten."
+    },
+    "page6.html": {
+      "auto.page6.html.1.Week_6": "Week 6",
+      "auto.page6.html.2.text": "☰",
+      "auto.page6.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page6.html.4.Week_6": "Week 6",
+      "auto.page6.html.5.Design_en_coderen": "Design en coderen",
+      "auto.page6.html.6.In_de_zesde_les_hebben_we_on": "In de zesde les hebben we ons ontwerp verder uitgewerkt en gecodeerd. We hebben geleerd hoe we onze ontwerpen kunnen omzetten in werkende webpagina's met behulp van HTML en CSS. Dit stelde ons in staat om onze ideeën tot leven te brengen en een beter begrip te krijgen van het ontwerpproces."
+    },
+    "page13.html": {
+      "auto.page13.html.1.Week_13": "Week 13",
+      "auto.page13.html.2.text": "☰",
+      "auto.page13.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page13.html.4.Week_13": "Week 13",
+      "auto.page13.html.5.Placeholder_content": "Placeholder content",
+      "auto.page13.html.6.Placeholder_content_for_week": "Placeholder content for week 13."
+    },
+    "page9.html": {
+      "auto.page9.html.1.Week_9": "Week 9",
+      "auto.page9.html.2.text": "☰",
+      "auto.page9.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page9.html.4.Week_9": "Week 9",
+      "auto.page9.html.5.Treinborden_naar_GSM_formaat": "Treinborden naar GSM formaat",
+      "auto.page9.html.6.In_de_negende_les_hebben_we": "In de negende les hebben we geleerd hoe we treinborden kunnen aanpassen voor weergave op GSM-formaat. We hebben gekeken naar responsief ontwerp en hoe we ervoor kunnen zorgen dat de informatie op de borden duidelijk en leesbaar blijft, zelfs op kleinere schermen. Daarnaast hebben we besproken hoe het ontwerp specifiek is geoptimaliseerd voor het formaat van een iPhone 16 Pro Max, zodat alle elementen correct en gebruiksvriendelijk worden weergegeven op dit grotere mobiele scherm. Ook hebben we technieken besproken om de gebruikerservaring verder te optimaliseren voor mobiele apparaten.",
+      "auto.page9.html.7.OVERZICHTSSCHERM": "OVERZICHTSSCHERM",
+      "auto.page9.html.8.PERRONSCHERM": "PERRONSCHERM",
+      "auto.page9.html.9.TREINOVERZICHTSCHERM": "TREINOVERZICHTSCHERM"
+    },
+    "page10.html": {
+      "auto.page10.html.1.Week_10": "Week 10",
+      "auto.page10.html.2.text": "☰",
+      "auto.page10.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page10.html.4.Week_10": "Week 10",
+      "auto.page10.html.5.Placeholder_content": "Placeholder content",
+      "auto.page10.html.6.Placeholder_content_for_week": "Placeholder content for week 10."
+    },
+    "page5.html": {
+      "auto.page5.html.1.Week_5": "Week 5",
+      "auto.page5.html.2.text": "☰",
+      "auto.page5.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page5.html.4.Week_5": "Week 5",
+      "auto.page5.html.5.HTML_basis_leren": "HTML basis leren",
+      "auto.page5.html.6.In_de_vijfde_les_hebben_we_d": "In de vijfde les hebben we de basis van HTML geleerd. HTML is de standaard opmaaktaal voor het maken van webpagina's. We hebben geleerd hoe we verschillende HTML-elementen kunnen gebruiken om inhoud te structureren en weer te geven op een webpagina. Hierbij hebben we ook onze Github en Netlify accounts opgezet om onze projecten online te kunnen hosten."
+    },
+    "page4.html": {
+      "auto.page4.html.1.Week_4": "Week 4",
+      "auto.page4.html.2.text": "☰",
+      "auto.page4.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page4.html.4.Week_4": "Week 4",
+      "auto.page4.html.5.Figma_naar_HTML___ChatGPT": "Figma naar HTML - ChatGPT",
+      "auto.page4.html.6.Deze_les_moesten_we_ons_ontw": "Deze les moesten we ons ontwerp van Figma omzetten naar een werkende HTML-pagina. Hiervoor heb ik ChatGPT gebruikt om me te helpen met het genereren van de benodigde code en structuur.",
+      "auto.page4.html.7.CODE": "CODE",
+      "auto.page4.html.8.Hier_kan_je_de_code_zien_dat": "Hier kan je de code zien dat ChatGPT mij heeft gegeven om mijn Figma ontwerp om te zetten naar HTML.",
+      "auto.page4.html.9.BEELD_TE_ZIEN_IN_BROWSER": "BEELD TE ZIEN IN BROWSER",
+      "auto.page4.html.10.Hier_kan_je_zien_hoe_het_eru": "Hier kan je zien hoe het eruitziet in de browser nadat ik de code van ChatGPT heb gebruikt om mijn Figma ontwerp om te zetten naar HTML."
+    },
+    "page11.html": {
+      "auto.page11.html.1.Week_11": "Week 11",
+      "auto.page11.html.2.text": "☰",
+      "auto.page11.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page11.html.4.Week_11": "Week 11",
+      "auto.page11.html.5.Placeholder_content": "Placeholder content",
+      "auto.page11.html.6.Placeholder_content_for_week": "Placeholder content for week 11."
+    },
+    "page8.html": {
+      "auto.page8.html.1.Week_8": "Week 8",
+      "auto.page8.html.2.text": "☰",
+      "auto.page8.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page8.html.4.Week_8": "Week 8",
+      "auto.page8.html.5.HTML_pagina_professioneler_m": "HTML pagina professioneler maken",
+      "auto.page8.html.6.In_de_achtste_les_hebben_we": "In de achtste les hebben we geleerd hoe we onze HTML-pagina's professioneler kunnen maken door gebruik te maken van semantische HTML-elementen, betere structuren en toegankelijkheidsrichtlijnen. We hebben ook gekeken naar best practices voor het schrijven van schone en onderhoudbare code."
+    },
+    "page20.html": {
+      "auto.page20.html.1.Week_20": "Week 20",
+      "auto.page20.html.2.text": "☰",
+      "auto.page20.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page20.html.4.Week_20": "Week 20",
+      "auto.page20.html.5.Placeholder_content": "Placeholder content",
+      "auto.page20.html.6.Placeholder_content_for_week": "Placeholder content for week 20."
+    },
+    "page3.html": {
+      "auto.page3.html.1.Week_3": "Week 3",
+      "auto.page3.html.2.text": "☰",
+      "auto.page3.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page3.html.4.Week_3": "Week 3",
+      "auto.page3.html.5.Schermen_in_Figma": "Schermen in Figma",
+      "auto.page3.html.6.In_de_derde_les_zijn_we_bego": "In de derde les zijn we begonnen met het daadwerkelijk ontwerpen van de schermen in Figma. We hebben de low-fi schetsen die we in de eerste les hadden gemaakt, omgezet in digitale ontwerpen met behulp van Figma.",
+      "auto.page3.html.7.VERTREKBORD": "VERTREKBORD",
+      "auto.page3.html.8.Dit_bord_toont_een_lijst_van": "Dit bord toont een lijst van alle eerstvolgende vertrekken met tijd, eventuele vertraging of annulatie, bestemming, tussenstops en het treinnummer. Reizigers krijgen hier een volledig overzicht om snel te zien welke trein wanneer vertrekt.",
+      "auto.page3.html.9.PERRON_SCHERM": "PERRON SCHERM",
+      "auto.page3.html.10.Dit_bord_geeft_per_spoor_de": "Dit bord geeft per spoor de eerstvolgende trein weer met vertrek- en eindtijd, bestemming, route en de bijhorende treinillustratie. Het helpt reizigers bevestigen dat ze aan het juiste spoor staan en toont duidelijk de rit die zo meteen vertrekt.",
+      "auto.page3.html.11.WAGON_INDELING_SCHERM": "WAGON INDELING SCHERM",
+      "auto.page3.html.12.Dit_bord_toont_de_opstelling": "Dit bord toont de opstelling van de trein die aan het perron komt, inclusief de volgorde van de rijtuigen en de locaties van functies zoals fietsplaatsen of rolstoelruimtes. Reizigers zien meteen waar ze moeten instappen."
+    },
+    "page16.html": {
+      "auto.page16.html.1.Week_16": "Week 16",
+      "auto.page16.html.2.text": "☰",
+      "auto.page16.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page16.html.4.Week_16": "Week 16",
+      "auto.page16.html.5.Placeholder_content": "Placeholder content",
+      "auto.page16.html.6.Placeholder_content_for_week": "Placeholder content for week 16."
+    },
+    "page17.html": {
+      "auto.page17.html.1.Week_17": "Week 17",
+      "auto.page17.html.2.text": "☰",
+      "auto.page17.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page17.html.4.Week_17": "Week 17",
+      "auto.page17.html.5.Placeholder_content": "Placeholder content",
+      "auto.page17.html.6.Placeholder_content_for_week": "Placeholder content for week 17."
+    },
+    "page2.html": {
+      "auto.page2.html.1.Week_2": "Week 2",
+      "auto.page2.html.2.text": "☰",
+      "auto.page2.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.page2.html.4.Week_2": "Week 2",
+      "auto.page2.html.5.Figma_leren_kennen": "Figma leren kennen",
+      "auto.page2.html.6.In_de_tweede_les_hebben_we_F": "In de tweede les hebben we Figma leren kennen. Figma is een ontwerptool die veel wordt gebruikt voor het maken van UI/UX-ontwerpen. We hebben geleerd hoe we wireframes en prototypes kunnen maken met behulp van Figma."
+    },
+    "OverOpdracht.html": {
+      "auto.OverOpdracht.html.1.Opdracht": "Opdracht",
+      "auto.OverOpdracht.html.2.text": "☰",
+      "auto.OverOpdracht.html.3.Lost_in_Tra_i_nsition": "Lost in Tra(i)nsition",
+      "auto.OverOpdracht.html.4.Opdracht": "Opdracht",
+      "auto.OverOpdracht.html.5.Placeholder_content": "Placeholder content",
+      "auto.OverOpdracht.html.6.Placeholder_content_for_week": "Placeholder content for week 16."
+    },
+    "assets/sidebar.html": {
+      "auto.sidebar.html.1.Week_1": "Week 1",
+      "auto.sidebar.html.2.Week_2": "Week 2",
+      "auto.sidebar.html.3.Week_3": "Week 3",
+      "auto.sidebar.html.4.Week_4": "Week 4",
+      "auto.sidebar.html.5.Week_5": "Week 5",
+      "auto.sidebar.html.6.Week_6": "Week 6",
+      "auto.sidebar.html.7.Week_7": "Week 7",
+      "auto.sidebar.html.8.Week_8": "Week 8",
+      "auto.sidebar.html.9.Week_9": "Week 9",
+      "auto.sidebar.html.10.Week_10": "Week 10",
+      "auto.sidebar.html.11.Week_11": "Week 11",
+      "auto.sidebar.html.12.Week_12": "Week 12",
+      "auto.sidebar.html.13.Week_13": "Week 13",
+      "auto.sidebar.html.14.Week_14": "Week 14",
+      "auto.sidebar.html.15.Week_15": "Week 15",
+      "auto.sidebar.html.16.Week_16": "Week 16",
+      "auto.sidebar.html.17.Week_17": "Week 17",
+      "auto.sidebar.html.18.Week_18": "Week 18",
+      "auto.sidebar.html.19.Week_19": "Week 19",
+      "auto.sidebar.html.20.Week_20": "Week 20"
+    }
+  },
+  "combined": {
+    "auto.page18.html.1.Week_18": {
+      "text": "Week 18",
+      "file": "page18.html"
+    },
+    "auto.page18.html.2.text": {
+      "text": "☰",
+      "file": "page18.html"
+    },
+    "auto.page18.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page18.html"
+    },
+    "auto.page18.html.4.Week_18": {
+      "text": "Week 18",
+      "file": "page18.html"
+    },
+    "auto.page18.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "page18.html"
+    },
+    "auto.page18.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 18.",
+      "file": "page18.html"
+    },
+    "auto.page1.html.1.Week_1": {
+      "text": "Week 1",
+      "file": "page1.html"
+    },
+    "auto.page1.html.2.text": {
+      "text": "☰",
+      "file": "page1.html"
+    },
+    "auto.page1.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page1.html"
+    },
+    "auto.page1.html.4.Week_1": {
+      "text": "Week 1",
+      "file": "page1.html"
+    },
+    "auto.page1.html.5.Uitleg___Schetsen": {
+      "text": "Uitleg + Schetsen",
+      "file": "page1.html"
+    },
+    "auto.page1.html.6.In_de_eerste_les_hebben_we_e": {
+      "text": "In de eerste les hebben we een introductie gekregen over de opdracht voor dit project. We hebben besproken dat we een reeks digitale informatieborden gaan ontwerpen voor een treinstation, gericht op het verbeteren van de reizigerservaring. De borden zullen verschillende soorten informatie weergeven, zoals vertrektijden, perroninformatie en wagonindelingen. We hebben dan ook opdracht gekregen om schetsen temaken van hoe deze informatieborden eruit zouden kunnen zien.",
+      "file": "page1.html"
+    },
+    "auto.page1.html.7.VERTREKBORD": {
+      "text": "VERTREKBORD",
+      "file": "page1.html"
+    },
+    "auto.page1.html.8.Dit_bord_toont_de_vertrektij": {
+      "text": "Dit bord toont de vertrektijden van de komende treinen, inclusief bestemming, spoor en eventuele vertragingen. Het helpt reizigers snel de benodigde informatie te vinden voor hun reis.",
+      "file": "page1.html"
+    },
+    "auto.page1.html.9.PERRON_SCHERM": {
+      "text": "PERRON SCHERM",
+      "file": "page1.html"
+    },
+    "auto.page1.html.10.Dit_bord_geeft_per_spoor_de": {
+      "text": "Dit bord geeft per spoor de eerstvolgende trein weer met vertrek- en eindtijd, bestemming, route en de bijhorende treinillustratie. Het helpt reizigers bevestigen dat ze aan het juiste spoor staan en toont duidelijk de rit die zo meteen vertrekt.",
+      "file": "page1.html"
+    },
+    "auto.page1.html.11.WAGON_INDELING_SCHERM": {
+      "text": "WAGON INDELING SCHERM",
+      "file": "page1.html"
+    },
+    "auto.page1.html.12.Dit_bord_toont_de_opstelling": {
+      "text": "Dit bord toont de opstelling van de trein die aan het perron komt, inclusief de volgorde van de rijtuigen en de locaties van functies zoals fietsplaatsen of rolstoelruimtes. Reizigers zien meteen waar ze moeten instappen.",
+      "file": "page1.html"
+    },
+    "auto.page1.html.13.DIGITALE_SCHETSEN": {
+      "text": "DIGITALE SCHETSEN",
+      "file": "page1.html"
+    },
+    "auto.page1.html.14.Hiernaast_zijn_enkele_digita": {
+      "text": "Hiernaast zijn enkele digitale schetsen te zien die ik heb gemaakt op basis van mijn initiale ideeën voor de informatieborden. Deze schetsen geven een visueel overzicht van hoe de borden eruit zouden kunnen zien en welke informatie ze zouden weergeven.",
+      "file": "page1.html"
+    },
+    "auto.page14.html.1.Week_14": {
+      "text": "Week 14",
+      "file": "page14.html"
+    },
+    "auto.page14.html.2.text": {
+      "text": "☰",
+      "file": "page14.html"
+    },
+    "auto.page14.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page14.html"
+    },
+    "auto.page14.html.4.Week_14": {
+      "text": "Week 14",
+      "file": "page14.html"
+    },
+    "auto.page14.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "page14.html"
+    },
+    "auto.page14.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 14.",
+      "file": "page14.html"
+    },
+    "auto.index.html.1.Hoofdpagina": {
+      "text": "Hoofdpagina",
+      "file": "index.html"
+    },
+    "auto.index.html.2.text": {
+      "text": "☰",
+      "file": "index.html"
+    },
+    "auto.index.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "index.html"
+    },
+    "auto.index.html.4.Hoofdpagina": {
+      "text": "Hoofdpagina",
+      "file": "index.html"
+    },
+    "auto.index.html.5.Opdracht_rond_de_treinborden": {
+      "text": "Opdracht rond de treinborden.",
+      "file": "index.html"
+    },
+    "auto.index.html.6.De_bedoeling_van_deze_opdrac": {
+      "text": "De bedoeling van deze opdracht is om het treinsysteem met de borden te verduidelijken en beter te maken. Zodat het makkelijk is voor iedereen om dit te begrijpen. Het is ook de bedoeling dat mensen die een andere taal spreken dan Nederlands dit ook begrijpen, dus dat er meerdere talen worden gebruikt op de borden.",
+      "file": "index.html"
+    },
+    "auto.index.html.7.We_hadden_als_opdracht_gekre": {
+      "text": "We hadden als opdracht gekregen om vier borden te maken. Een vertrekbord-scherm, een perron-informatiescherm, een passagiersinformatie- /wegwijsscherm en een Mobiel scherm via QR-code.",
+      "file": "index.html"
+    },
+    "auto.page15.html.1.Week_15": {
+      "text": "Week 15",
+      "file": "page15.html"
+    },
+    "auto.page15.html.2.text": {
+      "text": "☰",
+      "file": "page15.html"
+    },
+    "auto.page15.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page15.html"
+    },
+    "auto.page15.html.4.Week_15": {
+      "text": "Week 15",
+      "file": "page15.html"
+    },
+    "auto.page15.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "page15.html"
+    },
+    "auto.page15.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 15.",
+      "file": "page15.html"
+    },
+    "auto.page19.html.1.Week_19": {
+      "text": "Week 19",
+      "file": "page19.html"
+    },
+    "auto.page19.html.2.text": {
+      "text": "☰",
+      "file": "page19.html"
+    },
+    "auto.page19.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page19.html"
+    },
+    "auto.page19.html.4.Week_19": {
+      "text": "Week 19",
+      "file": "page19.html"
+    },
+    "auto.page19.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "page19.html"
+    },
+    "auto.page19.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 19.",
+      "file": "page19.html"
+    },
+    "auto.Contact.html.1.Contact": {
+      "text": "Contact",
+      "file": "Contact.html"
+    },
+    "auto.Contact.html.2.text": {
+      "text": "☰",
+      "file": "Contact.html"
+    },
+    "auto.Contact.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "Contact.html"
+    },
+    "auto.page12.html.1.Week_12": {
+      "text": "Week 12",
+      "file": "page12.html"
+    },
+    "auto.page12.html.2.text": {
+      "text": "☰",
+      "file": "page12.html"
+    },
+    "auto.page12.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page12.html"
+    },
+    "auto.page12.html.4.Week_12": {
+      "text": "Week 12",
+      "file": "page12.html"
+    },
+    "auto.page12.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "page12.html"
+    },
+    "auto.page12.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 12.",
+      "file": "page12.html"
+    },
+    "auto.page7.html.1.Week_7": {
+      "text": "Week 7",
+      "file": "page7.html"
+    },
+    "auto.page7.html.2.text": {
+      "text": "☰",
+      "file": "page7.html"
+    },
+    "auto.page7.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page7.html"
+    },
+    "auto.page7.html.4.Week_7": {
+      "text": "Week 7",
+      "file": "page7.html"
+    },
+    "auto.page7.html.5.HTML_naar_Windtail": {
+      "text": "HTML naar Windtail",
+      "file": "page7.html"
+    },
+    "auto.page7.html.6.In_de_zevende_les_hebben_we": {
+      "text": "In de zevende les hebben we geleerd hoe we onze HTML-pagina's kunnen omzetten naar Windtail, een CSS-framework dat ons helpt bij het snel ontwerpen van responsieve en aantrekkelijke webpagina's. We hebben de basisprincipes van Windtail besproken en hoe we het kunnen integreren in onze bestaande projecten.",
+      "file": "page7.html"
+    },
+    "auto.page6.html.1.Week_6": {
+      "text": "Week 6",
+      "file": "page6.html"
+    },
+    "auto.page6.html.2.text": {
+      "text": "☰",
+      "file": "page6.html"
+    },
+    "auto.page6.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page6.html"
+    },
+    "auto.page6.html.4.Week_6": {
+      "text": "Week 6",
+      "file": "page6.html"
+    },
+    "auto.page6.html.5.Design_en_coderen": {
+      "text": "Design en coderen",
+      "file": "page6.html"
+    },
+    "auto.page6.html.6.In_de_zesde_les_hebben_we_on": {
+      "text": "In de zesde les hebben we ons ontwerp verder uitgewerkt en gecodeerd. We hebben geleerd hoe we onze ontwerpen kunnen omzetten in werkende webpagina's met behulp van HTML en CSS. Dit stelde ons in staat om onze ideeën tot leven te brengen en een beter begrip te krijgen van het ontwerpproces.",
+      "file": "page6.html"
+    },
+    "auto.page13.html.1.Week_13": {
+      "text": "Week 13",
+      "file": "page13.html"
+    },
+    "auto.page13.html.2.text": {
+      "text": "☰",
+      "file": "page13.html"
+    },
+    "auto.page13.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page13.html"
+    },
+    "auto.page13.html.4.Week_13": {
+      "text": "Week 13",
+      "file": "page13.html"
+    },
+    "auto.page13.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "page13.html"
+    },
+    "auto.page13.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 13.",
+      "file": "page13.html"
+    },
+    "auto.page9.html.1.Week_9": {
+      "text": "Week 9",
+      "file": "page9.html"
+    },
+    "auto.page9.html.2.text": {
+      "text": "☰",
+      "file": "page9.html"
+    },
+    "auto.page9.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page9.html"
+    },
+    "auto.page9.html.4.Week_9": {
+      "text": "Week 9",
+      "file": "page9.html"
+    },
+    "auto.page9.html.5.Treinborden_naar_GSM_formaat": {
+      "text": "Treinborden naar GSM formaat",
+      "file": "page9.html"
+    },
+    "auto.page9.html.6.In_de_negende_les_hebben_we": {
+      "text": "In de negende les hebben we geleerd hoe we treinborden kunnen aanpassen voor weergave op GSM-formaat. We hebben gekeken naar responsief ontwerp en hoe we ervoor kunnen zorgen dat de informatie op de borden duidelijk en leesbaar blijft, zelfs op kleinere schermen. Daarnaast hebben we besproken hoe het ontwerp specifiek is geoptimaliseerd voor het formaat van een iPhone 16 Pro Max, zodat alle elementen correct en gebruiksvriendelijk worden weergegeven op dit grotere mobiele scherm. Ook hebben we technieken besproken om de gebruikerservaring verder te optimaliseren voor mobiele apparaten.",
+      "file": "page9.html"
+    },
+    "auto.page9.html.7.OVERZICHTSSCHERM": {
+      "text": "OVERZICHTSSCHERM",
+      "file": "page9.html"
+    },
+    "auto.page9.html.8.PERRONSCHERM": {
+      "text": "PERRONSCHERM",
+      "file": "page9.html"
+    },
+    "auto.page9.html.9.TREINOVERZICHTSCHERM": {
+      "text": "TREINOVERZICHTSCHERM",
+      "file": "page9.html"
+    },
+    "auto.page10.html.1.Week_10": {
+      "text": "Week 10",
+      "file": "page10.html"
+    },
+    "auto.page10.html.2.text": {
+      "text": "☰",
+      "file": "page10.html"
+    },
+    "auto.page10.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page10.html"
+    },
+    "auto.page10.html.4.Week_10": {
+      "text": "Week 10",
+      "file": "page10.html"
+    },
+    "auto.page10.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "page10.html"
+    },
+    "auto.page10.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 10.",
+      "file": "page10.html"
+    },
+    "auto.page5.html.1.Week_5": {
+      "text": "Week 5",
+      "file": "page5.html"
+    },
+    "auto.page5.html.2.text": {
+      "text": "☰",
+      "file": "page5.html"
+    },
+    "auto.page5.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page5.html"
+    },
+    "auto.page5.html.4.Week_5": {
+      "text": "Week 5",
+      "file": "page5.html"
+    },
+    "auto.page5.html.5.HTML_basis_leren": {
+      "text": "HTML basis leren",
+      "file": "page5.html"
+    },
+    "auto.page5.html.6.In_de_vijfde_les_hebben_we_d": {
+      "text": "In de vijfde les hebben we de basis van HTML geleerd. HTML is de standaard opmaaktaal voor het maken van webpagina's. We hebben geleerd hoe we verschillende HTML-elementen kunnen gebruiken om inhoud te structureren en weer te geven op een webpagina. Hierbij hebben we ook onze Github en Netlify accounts opgezet om onze projecten online te kunnen hosten.",
+      "file": "page5.html"
+    },
+    "auto.page4.html.1.Week_4": {
+      "text": "Week 4",
+      "file": "page4.html"
+    },
+    "auto.page4.html.2.text": {
+      "text": "☰",
+      "file": "page4.html"
+    },
+    "auto.page4.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page4.html"
+    },
+    "auto.page4.html.4.Week_4": {
+      "text": "Week 4",
+      "file": "page4.html"
+    },
+    "auto.page4.html.5.Figma_naar_HTML___ChatGPT": {
+      "text": "Figma naar HTML - ChatGPT",
+      "file": "page4.html"
+    },
+    "auto.page4.html.6.Deze_les_moesten_we_ons_ontw": {
+      "text": "Deze les moesten we ons ontwerp van Figma omzetten naar een werkende HTML-pagina. Hiervoor heb ik ChatGPT gebruikt om me te helpen met het genereren van de benodigde code en structuur.",
+      "file": "page4.html"
+    },
+    "auto.page4.html.7.CODE": {
+      "text": "CODE",
+      "file": "page4.html"
+    },
+    "auto.page4.html.8.Hier_kan_je_de_code_zien_dat": {
+      "text": "Hier kan je de code zien dat ChatGPT mij heeft gegeven om mijn Figma ontwerp om te zetten naar HTML.",
+      "file": "page4.html"
+    },
+    "auto.page4.html.9.BEELD_TE_ZIEN_IN_BROWSER": {
+      "text": "BEELD TE ZIEN IN BROWSER",
+      "file": "page4.html"
+    },
+    "auto.page4.html.10.Hier_kan_je_zien_hoe_het_eru": {
+      "text": "Hier kan je zien hoe het eruitziet in de browser nadat ik de code van ChatGPT heb gebruikt om mijn Figma ontwerp om te zetten naar HTML.",
+      "file": "page4.html"
+    },
+    "auto.page11.html.1.Week_11": {
+      "text": "Week 11",
+      "file": "page11.html"
+    },
+    "auto.page11.html.2.text": {
+      "text": "☰",
+      "file": "page11.html"
+    },
+    "auto.page11.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page11.html"
+    },
+    "auto.page11.html.4.Week_11": {
+      "text": "Week 11",
+      "file": "page11.html"
+    },
+    "auto.page11.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "page11.html"
+    },
+    "auto.page11.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 11.",
+      "file": "page11.html"
+    },
+    "auto.page8.html.1.Week_8": {
+      "text": "Week 8",
+      "file": "page8.html"
+    },
+    "auto.page8.html.2.text": {
+      "text": "☰",
+      "file": "page8.html"
+    },
+    "auto.page8.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page8.html"
+    },
+    "auto.page8.html.4.Week_8": {
+      "text": "Week 8",
+      "file": "page8.html"
+    },
+    "auto.page8.html.5.HTML_pagina_professioneler_m": {
+      "text": "HTML pagina professioneler maken",
+      "file": "page8.html"
+    },
+    "auto.page8.html.6.In_de_achtste_les_hebben_we": {
+      "text": "In de achtste les hebben we geleerd hoe we onze HTML-pagina's professioneler kunnen maken door gebruik te maken van semantische HTML-elementen, betere structuren en toegankelijkheidsrichtlijnen. We hebben ook gekeken naar best practices voor het schrijven van schone en onderhoudbare code.",
+      "file": "page8.html"
+    },
+    "auto.page20.html.1.Week_20": {
+      "text": "Week 20",
+      "file": "page20.html"
+    },
+    "auto.page20.html.2.text": {
+      "text": "☰",
+      "file": "page20.html"
+    },
+    "auto.page20.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page20.html"
+    },
+    "auto.page20.html.4.Week_20": {
+      "text": "Week 20",
+      "file": "page20.html"
+    },
+    "auto.page20.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "page20.html"
+    },
+    "auto.page20.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 20.",
+      "file": "page20.html"
+    },
+    "auto.page3.html.1.Week_3": {
+      "text": "Week 3",
+      "file": "page3.html"
+    },
+    "auto.page3.html.2.text": {
+      "text": "☰",
+      "file": "page3.html"
+    },
+    "auto.page3.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page3.html"
+    },
+    "auto.page3.html.4.Week_3": {
+      "text": "Week 3",
+      "file": "page3.html"
+    },
+    "auto.page3.html.5.Schermen_in_Figma": {
+      "text": "Schermen in Figma",
+      "file": "page3.html"
+    },
+    "auto.page3.html.6.In_de_derde_les_zijn_we_bego": {
+      "text": "In de derde les zijn we begonnen met het daadwerkelijk ontwerpen van de schermen in Figma. We hebben de low-fi schetsen die we in de eerste les hadden gemaakt, omgezet in digitale ontwerpen met behulp van Figma.",
+      "file": "page3.html"
+    },
+    "auto.page3.html.7.VERTREKBORD": {
+      "text": "VERTREKBORD",
+      "file": "page3.html"
+    },
+    "auto.page3.html.8.Dit_bord_toont_een_lijst_van": {
+      "text": "Dit bord toont een lijst van alle eerstvolgende vertrekken met tijd, eventuele vertraging of annulatie, bestemming, tussenstops en het treinnummer. Reizigers krijgen hier een volledig overzicht om snel te zien welke trein wanneer vertrekt.",
+      "file": "page3.html"
+    },
+    "auto.page3.html.9.PERRON_SCHERM": {
+      "text": "PERRON SCHERM",
+      "file": "page3.html"
+    },
+    "auto.page3.html.10.Dit_bord_geeft_per_spoor_de": {
+      "text": "Dit bord geeft per spoor de eerstvolgende trein weer met vertrek- en eindtijd, bestemming, route en de bijhorende treinillustratie. Het helpt reizigers bevestigen dat ze aan het juiste spoor staan en toont duidelijk de rit die zo meteen vertrekt.",
+      "file": "page3.html"
+    },
+    "auto.page3.html.11.WAGON_INDELING_SCHERM": {
+      "text": "WAGON INDELING SCHERM",
+      "file": "page3.html"
+    },
+    "auto.page3.html.12.Dit_bord_toont_de_opstelling": {
+      "text": "Dit bord toont de opstelling van de trein die aan het perron komt, inclusief de volgorde van de rijtuigen en de locaties van functies zoals fietsplaatsen of rolstoelruimtes. Reizigers zien meteen waar ze moeten instappen.",
+      "file": "page3.html"
+    },
+    "auto.page16.html.1.Week_16": {
+      "text": "Week 16",
+      "file": "page16.html"
+    },
+    "auto.page16.html.2.text": {
+      "text": "☰",
+      "file": "page16.html"
+    },
+    "auto.page16.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page16.html"
+    },
+    "auto.page16.html.4.Week_16": {
+      "text": "Week 16",
+      "file": "page16.html"
+    },
+    "auto.page16.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "page16.html"
+    },
+    "auto.page16.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 16.",
+      "file": "page16.html"
+    },
+    "auto.page17.html.1.Week_17": {
+      "text": "Week 17",
+      "file": "page17.html"
+    },
+    "auto.page17.html.2.text": {
+      "text": "☰",
+      "file": "page17.html"
+    },
+    "auto.page17.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page17.html"
+    },
+    "auto.page17.html.4.Week_17": {
+      "text": "Week 17",
+      "file": "page17.html"
+    },
+    "auto.page17.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "page17.html"
+    },
+    "auto.page17.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 17.",
+      "file": "page17.html"
+    },
+    "auto.page2.html.1.Week_2": {
+      "text": "Week 2",
+      "file": "page2.html"
+    },
+    "auto.page2.html.2.text": {
+      "text": "☰",
+      "file": "page2.html"
+    },
+    "auto.page2.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "page2.html"
+    },
+    "auto.page2.html.4.Week_2": {
+      "text": "Week 2",
+      "file": "page2.html"
+    },
+    "auto.page2.html.5.Figma_leren_kennen": {
+      "text": "Figma leren kennen",
+      "file": "page2.html"
+    },
+    "auto.page2.html.6.In_de_tweede_les_hebben_we_F": {
+      "text": "In de tweede les hebben we Figma leren kennen. Figma is een ontwerptool die veel wordt gebruikt voor het maken van UI/UX-ontwerpen. We hebben geleerd hoe we wireframes en prototypes kunnen maken met behulp van Figma.",
+      "file": "page2.html"
+    },
+    "auto.OverOpdracht.html.1.Opdracht": {
+      "text": "Opdracht",
+      "file": "OverOpdracht.html"
+    },
+    "auto.OverOpdracht.html.2.text": {
+      "text": "☰",
+      "file": "OverOpdracht.html"
+    },
+    "auto.OverOpdracht.html.3.Lost_in_Tra_i_nsition": {
+      "text": "Lost in Tra(i)nsition",
+      "file": "OverOpdracht.html"
+    },
+    "auto.OverOpdracht.html.4.Opdracht": {
+      "text": "Opdracht",
+      "file": "OverOpdracht.html"
+    },
+    "auto.OverOpdracht.html.5.Placeholder_content": {
+      "text": "Placeholder content",
+      "file": "OverOpdracht.html"
+    },
+    "auto.OverOpdracht.html.6.Placeholder_content_for_week": {
+      "text": "Placeholder content for week 16.",
+      "file": "OverOpdracht.html"
+    },
+    "auto.sidebar.html.1.Week_1": {
+      "text": "Week 1",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.2.Week_2": {
+      "text": "Week 2",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.3.Week_3": {
+      "text": "Week 3",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.4.Week_4": {
+      "text": "Week 4",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.5.Week_5": {
+      "text": "Week 5",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.6.Week_6": {
+      "text": "Week 6",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.7.Week_7": {
+      "text": "Week 7",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.8.Week_8": {
+      "text": "Week 8",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.9.Week_9": {
+      "text": "Week 9",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.10.Week_10": {
+      "text": "Week 10",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.11.Week_11": {
+      "text": "Week 11",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.12.Week_12": {
+      "text": "Week 12",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.13.Week_13": {
+      "text": "Week 13",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.14.Week_14": {
+      "text": "Week 14",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.15.Week_15": {
+      "text": "Week 15",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.16.Week_16": {
+      "text": "Week 16",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.17.Week_17": {
+      "text": "Week 17",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.18.Week_18": {
+      "text": "Week 18",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.19.Week_19": {
+      "text": "Week 19",
+      "file": "assets/sidebar.html"
+    },
+    "auto.sidebar.html.20.Week_20": {
+      "text": "Week 20",
+      "file": "assets/sidebar.html"
+    }
+  },
+  "total_extracted": 177
+}
