@@ -166,10 +166,74 @@
     }
   };
 
+  // Ensure a Home link exists in the header nav on every page
+  const ensureHeaderHomeLink = () => {
+    const headerList = document.querySelector('.header-nav ul');
+    if (!headerList) return;
+
+    const hasHome = headerList.querySelector('a[href="index.html"]');
+    if (hasHome) return;
+
+    const li = document.createElement('li');
+    const link = document.createElement('a');
+    link.href = 'index.html';
+    link.classList.add('home-link');
+    link.setAttribute('aria-label', 'Home');
+    const icon = document.createElement('img');
+    icon.src = 'assets/icons/home-transparent-02.svg';
+    icon.alt = 'Home';
+    icon.className = 'nav-icon';
+    link.appendChild(icon);
+    li.appendChild(link);
+    headerList.prepend(li);
+  };
+
+  // Add previous/next week buttons at the bottom of week pages
+  const addWeekPager = () => {
+    const weeks = Array.from({ length: 10 }, (_, i) => `page${i + 1}.html`);
+    const currentFile = window.location.pathname.split('/').pop() || 'index.html';
+    const currentIdx = weeks.indexOf(currentFile);
+    if (currentIdx === -1) return; // only add on week pages
+
+    const container = document.querySelector('.container');
+    if (!container || container.querySelector('.week-pager')) return;
+
+    const pager = document.createElement('div');
+    pager.className = 'week-pager';
+
+    const makeBtn = (label, href, disabled = false) => {
+      const el = document.createElement(disabled ? 'span' : 'a');
+      el.className = 'week-pager-btn' + (disabled ? ' is-disabled' : '');
+      el.textContent = label;
+      if (!disabled) {
+        el.href = href;
+      }
+      return el;
+    };
+
+    const prev = currentIdx > 0
+      ? makeBtn('Vorige week', weeks[currentIdx - 1])
+      : makeBtn('Vorige week', '#', true);
+
+    const next = currentIdx < weeks.length - 1
+      ? makeBtn('Volgende week', weeks[currentIdx + 1])
+      : makeBtn('Volgende week', '#', true);
+
+    pager.appendChild(prev);
+    pager.appendChild(next);
+    container.appendChild(pager);
+  };
+
   const init = () => {
     // Ensure header size is measured and set before sidebar opens
     setHeaderHeights();
     window.addEventListener('resize', setHeaderHeights);
+
+    // Add Home link to header nav for quick return
+    ensureHeaderHomeLink();
+
+    // Add prev/next week navigation
+    addWeekPager();
 
     // Wait a tick to ensure main-layout exists
     setTimeout(loadSidebar, 0);

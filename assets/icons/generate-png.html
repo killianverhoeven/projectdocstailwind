@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"></head>
+<body>
+<canvas id="c" width="32" height="32"></canvas>
+<canvas id="c2" width="180" height="180"></canvas>
+<script>
+// 32x32 favicon
+const c = document.getElementById('c');
+const ctx = c.getContext('2d');
+ctx.fillStyle = '#1B1B1B';
+ctx.fillRect(0, 0, 32, 32);
+ctx.strokeStyle = '#e8f9fd';
+ctx.fillStyle = '#e8f9fd';
+ctx.lineWidth = 2;
+ctx.lineJoin = 'round';
+// Train body
+ctx.strokeRect(9, 10, 14, 8);
+// Bottom line
+ctx.beginPath();
+ctx.moveTo(9, 22);
+ctx.lineTo(23, 22);
+ctx.stroke();
+// Wheels
+ctx.beginPath();
+ctx.arc(13, 22, 2, 0, Math.PI * 2);
+ctx.fill();
+ctx.beginPath();
+ctx.arc(19, 22, 2, 0, Math.PI * 2);
+ctx.fill();
+
+// 180x180 apple-touch-icon
+const c2 = document.getElementById('c2');
+const ctx2 = c2.getContext('2d');
+ctx2.fillStyle = '#1B1B1B';
+ctx2.fillRect(0, 0, 180, 180);
+ctx2.strokeStyle = '#e8f9fd';
+ctx2.fillStyle = '#e8f9fd';
+ctx2.lineWidth = 6;
+ctx2.lineJoin = 'round';
+// Train body
+ctx2.strokeRect(50, 40, 80, 60);
+// Bottom line
+ctx2.beginPath();
+ctx2.moveTo(50, 110);
+ctx2.lineTo(130, 110);
+ctx2.stroke();
+// Windows
+ctx2.fillStyle = 'rgba(232, 249, 253, 0.3)';
+ctx2.fillRect(65, 55, 20, 20);
+ctx2.fillRect(95, 55, 20, 20);
+// Wheels
+ctx2.fillStyle = '#e8f9fd';
+ctx2.beginPath();
+ctx2.arc(70, 115, 8, 0, Math.PI * 2);
+ctx2.fill();
+ctx2.beginPath();
+ctx2.arc(110, 115, 8, 0, Math.PI * 2);
+ctx2.fill();
+// Rails
+ctx2.beginPath();
+ctx2.moveTo(40, 130);
+ctx2.lineTo(60, 140);
+ctx2.stroke();
+ctx2.beginPath();
+ctx2.moveTo(120, 130);
+ctx2.lineTo(140, 140);
+ctx2.stroke();
+
+// Download links
+console.log('Small:', c.toDataURL('image/png'));
+console.log('Large:', c2.toDataURL('image/png'));
+</script>
+</body>
+</html>

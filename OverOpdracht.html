@@ -1,14 +1,18 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opdracht</title>
-    <link rel="stylesheet" href="assets/styles.css">
-    <link rel="stylesheet" href="assets/flexboxes.css">
-    <link rel="stylesheet" href="assets/nav.css">
-    <link rel="stylesheet" href="assets/typography.css">
-
-    <link href="dist/output.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lost in Tra(i)nsition - Opdracht</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/flexboxes.css">
+  <link rel="stylesheet" href="assets/nav.css">
+  <link rel="stylesheet" href="assets/typography.css">
+  
+  <link href="dist/output.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon-opdracht.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-opdracht.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon-opdracht.svg">
 </head>
 <body>
     <header class="site-header">
@@ -22,26 +26,47 @@
         </nav>
     </header>
 
+    <!-- Hero image header: replace or add `assets/images/hero.jpg` later -->
+        <section class="hero" aria-labelledby="hero-title">
+        <!-- Only show the hero image (Header.png) — no gradient or overlay text -->
+        <img class="hero-img" src="assets/images/Header.png" alt="Header image - reizigersinformatie en borden" loading="lazy">
+    </section>
+
     <div class="main-layout">
     <div class="container">
         <div class="title">
         <page>
             <h1>Opdracht</h1>
-            <h2>Placeholder content</h2>
-            <p>
-            <div class="one-columns">
-                <div class="column">
-                    <p>
-                        Placeholder content for week 16.
-                    </p>
-                </section>
+            <h2>Bekijk de volledige assignment.</h2>
+            
+            <!-- PDF Viewer -->
+            <div style="margin-top: 2rem; margin-bottom: 2rem;">
+                <embed src="assets/docs/assignment.pdf" type="application/pdf" width="100%" height="800px" />
             </div>
+            
+            <!-- Fallback link if PDF doesn't display -->
+            <p style="text-align: center;">
+                <a href="assets/docs/assignment.pdf" target="_blank" rel="noopener noreferrer" class="btn-primary">Download Assignment PDF</a>
+            </p>
+            
         </page>
         </div>
         </div>
-        <script src="assets/theme-toggle.js" defer></script>
         <script src="assets/sidebar.js" defer></script>
         <script src="assets/scroll-animate.js" defer></script>
         <script src="assets/lightbox.js" defer></script>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="https://instagram.com/killianvh_" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="assets/icons/icon_Instagram.svg" alt="Instagram"></a></li>
+                <li><a href="https://github.com/killianverhoeven" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="assets/icons/icon_Github.svg" alt="GitHub"></a></li>
+            </ul>
+            <div class="footer-text">
+                <p>&copy; 2025 Lost in Tra(i)nsition.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

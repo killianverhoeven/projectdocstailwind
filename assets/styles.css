@@ -10,9 +10,9 @@
     /* Theme / layout */
     --bg: #1B1B1B;
     --body-text: #F2F2F2;
-    --accent: #d71700;
-    --accent-rgb: 102,227,196;
-    --title-color: #d71700;
+    --accent: #e8f9fd;
+    --accent-rgb: 232,249,253;
+    --title-color: #e8f9fd;
     --header-bg: #232323;
     --content-max-width: 900px;
     --content-side-padding: 1.25rem;
@@ -69,7 +69,21 @@ p,
 .container p,
 .column p,
 .gallery figcaption {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+}
+
+/* Add breathing room between stacked content blocks */
+.one-columns > * + * {
+    margin-top: 1.25rem;
+}
+
+.column > * + * {
+    margin-top: 1rem;
+}
+
+/* Improve spacing between text sections when they follow each other */
+.images-with-text > section + section {
+    margin-top: 1rem;
 }
 
 /* Ensure column/body text uses body text color */
@@ -97,6 +111,18 @@ p,
     font-weight: bold;
     text-transform: none;
     margin-top: 2em;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgba(var(--accent-rgb),0.2);
+}
+
+.title p {
+    font-size: 1.1rem;
+    color: rgba(var(--body-text), 0.85);
+    margin-top: 1rem;
+    margin-bottom: 0;
+    max-width: 600px;
+    line-height: 1.6;
 }
 
 /* Only headings in .title use title color */
@@ -106,7 +132,7 @@ p,
 }
 
 .title h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 1.2rem;
     margin-bottom: 0.6rem;
     line-height: 1.15;
@@ -132,7 +158,7 @@ p,
 }
 
 .title h2 {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     margin-top: 0.4rem;
     margin-bottom: 1rem;
     font-weight: 600;
@@ -140,40 +166,87 @@ p,
 }
 
 /* --------------------------------------------------
+   Dividers
+-------------------------------------------------- */
+.section-divider {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(var(--accent-rgb), 0.2);
+    margin: 1.5rem 0 1.75rem;
+}
+
+/* --------------------------------------------------
    Forms / buttons
 -------------------------------------------------- */
 .contact-form {
     max-width: 700px;
-    background: rgba(var(--white-rgb),0.02);
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 6px 18px rgba(var(--panel-shadow-rgb),0.25);
+    background: linear-gradient(135deg, rgba(var(--white-rgb),0.06) 0%, rgba(var(--white-rgb),0.02) 100%);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(var(--panel-shadow-rgb),0.35), inset 0 1px 0 rgba(var(--white-rgb),0.1);
+    border: 1px solid rgba(var(--white-rgb),0.08);
+    backdrop-filter: blur(10px);
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
 }
 
 .contact-form label {
     display: block;
-    font-weight: 600;
-    margin-top: 0.6rem;
-    margin-bottom: 0.25rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
     color: var(--body-text);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
 }
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
-.contact-form select,
 .contact-form textarea {
     width: 100%;
-    padding: 0.6rem 0.75rem;
-    border-radius: 6px;
-    border: 1px solid rgba(var(--white-rgb),0.06);
-    background: rgba(var(--black-rgb),0.25);
+    padding: 0.85rem 1rem;
+    border-radius: 8px;
+    border: 1.5px solid rgba(var(--white-rgb),0.12);
+    background: rgba(var(--black-rgb),0.4);
     color: var(--body-text);
     font-size: 1rem;
     box-sizing: border-box;
+    transition: all 220ms ease;
+}
+
+.contact-form select {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    border-radius: 8px;
+    border: 1.5px solid rgba(var(--white-rgb),0.12);
+    background: rgba(var(--black-rgb),0.4);
+    color: var(--body-text);
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: all 220ms ease;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23F2F2F2' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    padding-right: 2.5rem;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    background: rgba(var(--black-rgb),0.5);
+    box-shadow: 0 0 0 3px rgba(var(--accent-rgb),0.15);
 }
 
 .contact-form textarea {
     resize: vertical;
+    min-height: 120px;
 }
 
 .contact-form .form-row {
@@ -184,29 +257,62 @@ p,
 }
 
 .btn-primary {
-    background: var(--accent);
-    color: var(--accent-contrast);
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    padding: 0.6rem 0.9rem;
-    border-radius: 6px;
+    display: inline-block;
+    background: transparent;
+    color: var(--body-text);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 0.85rem 1.5rem;
+    border-radius: 8px;
     cursor: pointer;
     font-weight: 700;
-    transition: all 160ms cubic-bezier(.2,.9,.25,1);
+    transition: all 220ms ease;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(102,227,196,0.2);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.95rem;
+    font-family: 'Goldman', system-ui, sans-serif;
+    margin-top: 1rem;
+}
+
+.btn-primary::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.3),
+        transparent
+    );
+    transform: skewX(-20deg);
+    opacity: 0;
+    transition: opacity 600ms ease, left 600ms ease;
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(102,227,196,0.35);
-    background: rgba(102,227,196,1.05);
-    border-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.btn-primary:hover::before {
+    opacity: 1;
+    left: 100%;
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
 }
 
 .btn-primary:active {
     transform: translateY(0);
-    box-shadow: 0 2px 6px rgba(102,227,196,0.25);
+    box-shadow: 0 2px 6px rgba(var(--accent-rgb),0.25);
 }
 
 .btn-primary:focus {
@@ -303,6 +409,137 @@ img:hover {
 
 .images-with-text > figure img {
     cursor: pointer;
+}
+
+/* --------------------------------------------------
+   Tools grid
+-------------------------------------------------- */
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.tool-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem;
+    transition: transform 180ms ease;
+}
+
+.tool-card:hover {
+    transform: scale(1.05);
+}
+
+.tool-logo {
+    width: 88px;
+    height: 88px;
+    object-fit: contain;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: none;
+    transition: transform 180ms ease;
+}
+
+.tool-logo:hover,
+.tool-card img:hover {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.tool-card:hover .tool-logo {
+    transform: scale(1.05);
+}
+
+.tool-label {
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+/* --------------------------------------------------
+   Week quick nav
+-------------------------------------------------- */
+.week-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+}
+
+.week-card {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9rem 0.75rem;
+    border: 1px solid rgba(var(--accent-rgb), 0.25);
+    border-radius: 10px;
+    color: var(--body-text);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    background: linear-gradient(135deg, rgba(var(--white-rgb),0.04), rgba(var(--white-rgb),0.02));
+    transition: background-color 160ms ease, transform 160ms ease, border-color 160ms ease;
+}
+
+.week-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(var(--accent-rgb), 0.5);
+    background: rgba(var(--white-rgb), 0.05);
+}
+
+.week-pager {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.week-pager-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 160px;
+    padding: 0.9rem 1.25rem;
+    border: 1px solid rgba(var(--accent-rgb), 0.35);
+    border-radius: 10px;
+    color: var(--body-text);
+    text-decoration: none;
+    font-weight: 700;
+    background: linear-gradient(135deg, rgba(var(--white-rgb),0.04), rgba(var(--white-rgb),0.02));
+    transition: transform 160ms ease, border-color 160ms ease, background-color 160ms ease, color 160ms ease;
+}
+
+.week-pager-btn:not(.is-disabled):hover {
+    transform: translateY(-2px);
+    border-color: rgba(var(--accent-rgb), 0.6);
+    background: rgba(var(--white-rgb), 0.06);
+    color: #ffffff;
+}
+
+.week-pager-btn.is-disabled {
+    opacity: 0.45;
+    cursor: default;
+    pointer-events: none;
+}
+
+@media (max-width: 900px) {
+    .week-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 540px) {
+    .week-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 /* Click animation */
@@ -574,6 +811,19 @@ img:hover {
     left: 100%;
 }
 
+.header-nav .nav-icon {
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+
+.header-nav a.home-link {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    justify-content: center;
+}
+
 /* Hamburger */
 .hamburger {
     background: transparent;
@@ -832,7 +1082,7 @@ footer {
     border-top: 2px solid var(--accent);
     padding: 1rem 1.5rem;
     width: 100%;
-    margin-top: auto;
+    margin-top: 3rem;
     box-sizing: border-box;
 }
 

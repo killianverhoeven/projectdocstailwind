@@ -230,7 +230,7 @@
 /* Separator line after top links */
 .sidebar-separator {
     height: 1px;
-    background-color: rgba(var(--accent-rgb), 0.1);
+    background-color: var(--accent);
     margin-bottom: 1.2rem;
 }
 
